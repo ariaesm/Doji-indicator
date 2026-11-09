@@ -28,7 +28,7 @@ C_Doji = C_IsDojiBody and C_ShadowEquals
 patternLabelPosLow = low - (ta.atr(30) * 0.6)
 patternLabelPosHigh = high + (ta.atr(30) * 0.6)
 
-label_color_neutral = input(color.gray, "Label Color Neutral")
+label_color_neutral = input.color(color.gray, "Label Color Neutral")
 C_DojiNumberOfCandles = 1
 C_DragonflyDoji = C_IsDojiBody and C_UpShadow <= C_Body
 C_GravestoneDojiOne = C_IsDojiBody and C_DnShadow <= C_Body
